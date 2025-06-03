@@ -47,4 +47,4 @@ jobs:
           git commit -m ":card_file_box: Update processed reviews storage" || exit 0
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.COMMIT_TOKEN }}
